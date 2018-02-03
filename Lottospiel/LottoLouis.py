@@ -1,4 +1,4 @@
-# Initialisieren
+:# Initialisieren
 import random
 Guthaben = 10
 Zwischenstand = []
@@ -32,7 +32,7 @@ def Richtig_oder_nicht(Zahl):
 		if gerateneZahl == a:
 			Richtig(1)
 			weiter = True
-		elif a < 0 or a > 10
+		elif a < 0 or a > 10:
 			print ("Diese Zahl steht nicht zur Verfügung. Bitte wählen sie eine Zahl zwischen 0 und 10!")
 		else:
 			print("Tut uns leid sie haben ihren kompletten Einsatz verloren.")
@@ -41,7 +41,7 @@ def Richtig_oder_nicht(Zahl):
 		if gerateneZahl == b:
 			Richtig(1)
 			weiter = True
-		elif b < 0 or b > 10
+		elif b < 0 or b > 10:
 			print ("Diese Zahl steht nicht zur Verfügung. Bitte wählen sie eine Zahl zwischen 0 und 10!")
 		else:
 			print("Tut uns leid sie haben leider nicht den Jackpot gewonnen. Trotzdem haben sie",einsatz*1.125,"Euro gewonnen! Herzlichen Glückwunsch!")
@@ -51,7 +51,7 @@ def Richtig_oder_nicht(Zahl):
 		if gerateneZahl == c:
 			Richtig(1)
 			weiter = True
-		elif c < 0 or c > 10
+		elif c < 0 or c > 10:
 			print ("Diese Zahl steht nicht zur Verfügung. Bitte wählen sie eine Zahl zwischen 0 und 10!")
 		else:
 			print("Tut uns leid sie haben leider nicht den Jackpot gewonnen. Trotzdem haben sie",Einsatz*1.25,"Euro gewonnen! Herzlichen Glückwunsch!")
@@ -63,7 +63,7 @@ def Richtig_oder_nicht(Zahl):
 			print("Jackpot!!! Sie haben",einsatz*2,"Euro gewonnen!!!")
 			Guthaben = Guthaben+einsatz*2
 			weiter = True
-		elif d < 0 or d > 10
+		elif d < 0 or d > 10:
 			print ("Diese Zahl steht nicht zur Verfügung. Bitte wählen sie eine Zahl zwischen 0 und 10!")
 		else:
 			print("Tut uns leid sie haben leider nicht den Jackpot gewonnen. Trotzdem haben sie",einsatz*1.5,"Euro gewonnen! Herzlichen Glückwunsch!")
