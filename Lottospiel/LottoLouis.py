@@ -15,7 +15,7 @@ def Weiter_oder_nicht():
 	antwort = int(input("Möchten sie Lotto spielen? 1=Ja 0=Nein"))
 
 def Raten(Zahl):
-	gerateneZahl = int(input("Bitte raten sie die  Zahl Nummer ",Zahl," zwischen 0 und 10!")
+	gerateneZahl = int(input("Bitte raten sie die  Zahl Nummer ",Zahl," zwischen 0 und 10!"))
                            
 def Einsatz():
 	einsatz = int(input("Sie haben noch ",Guthaben," Euro zur Verfügung. Wie viel wollen sie setzen?"))
